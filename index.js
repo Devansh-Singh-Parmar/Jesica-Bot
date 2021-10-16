@@ -188,4 +188,4 @@ client.on("message", (message) => {
 });
 
 //login
-client.login(token.toString());
+client.on("debug", console.log);

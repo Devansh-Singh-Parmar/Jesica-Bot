@@ -4,12 +4,14 @@
   "description": "a discord js bot ",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "test"
   },
   "author": "Devansh",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
   }
 }
